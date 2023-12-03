@@ -1,0 +1,7 @@
+npx near call dev-1700667838907-29862532911617 vote_yes '{"city_name": "London"}' --accountId pivortex.testnet
+npx near call dev-1700667838907-29862532911617 vote_no --accountId pivortex.testnet
+npx near call dev-1700667838907-29862532911617 clear_contract --accountId dev-1700667838907-29862532911617
+
+npx near view dev-1700667838907-29862532911617 get_cities 
+npx near view dev-1700667838907-29862532911617 get_yes
+npx near view dev-1700667838907-29862532911617 get_no
